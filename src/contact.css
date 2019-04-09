@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
+*,::after,::before {
+    box-sizing: border-box;
+}
+
+.contacts {
+    width: 700px;
+
+}
+
+.picFrame {
+    width: 90%;
+    margin: 5% 10%;
+    background-color: mediumpurple;
+    border-radius: 10px;
+}
+
+.dataBox {
+    width: 90%;
+    margin: 1% 10%;
+    padding: 2% 3%;
+}
+
+hr {
+    width: 90%;
+    border: solid 2px indigo;
+}

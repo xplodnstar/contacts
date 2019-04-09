@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*,::after,::before {
+    box-sizing: border-box;
+}
+
+.contacts {
+    width: 700px;
+
+}
+
+.title {
+     width: 90%;
+    margin: 5% 10%;
+    background-color: mediumpurple;
+    border-radius: 10px;
+}
+
+li {
+    width: 90%;
+    margin: 1% 10%;
+    padding: 2% 3%;
+}
+
+li img {
+    width: 30px;
+    margin: 1%;
+}
+
+hr {
+    width: 90%;
+    border: solid 2px indigo;
+}
