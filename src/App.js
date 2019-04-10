@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import data from './serenity.json'
 import Contact from './Contact'
 import List from './List'
 import './App.css';

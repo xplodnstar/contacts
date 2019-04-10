@@ -9,7 +9,7 @@ const List = props => (
             <li className="title">Crew and Associates</li>
             {
                 data.map(character => (
-                    <li key={"character" + character.id}><img src={character.picture.thumbnail} alt="" /><Link to={"/Contact/" + character.id} className='link'>{character.name.first} {character.name.last}</Link> <hr></hr>
+                    <li key={"character" + character.id}><img src={character.picture.thumbnail} alt="" /><Link to={"/Contact/" + character.id} className='link'>{character.name.first} {character.name.last}</Link><hr className="listLine"></hr>
                     </li>
                 ))
             }

@@ -12,27 +12,40 @@ html {
 }
 
 .picFrame {
-    width: 90%;
-    margin: 5% 10%;
-    padding: 10% 20%;
+    width: 100%;
+    margin: 0 10%;
+    padding: 5% 35%;
     background-color: mediumpurple;
     border-radius: 10px;
+    position: relative;
+}
+
+.arrow {
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: rgba(0,0,0,.5);
+  font-size: 30px;
 }
 
 .picFrame img {
-    width: 100px;
+    width: 150px;
     border-radius: 50%;
+    margin: auto;   
 }
 
 .dataBox {
     width: 90%;
-    margin: 1% 10%;
-    padding: 2% 3%;
+    margin: 0 20%;
+    padding: 0 3%;
     text-transform: capitalize;
-    color: black
+    color: black;
+ 
 }
 
 hr {
     width: 90%;
     border: solid 1px indigo;
+    margin: 0 15% 0 15%;   
 }
