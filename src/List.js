@@ -1,27 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import data from './serenity.json'
 import './list.css';
 
-class List extends Component {
+const List = props => (
+    <div className="contacts">
+        <ul>
+            <li className="title">Crew and Associates</li>
+            {
+                data.map(character => (
+                    <li key={"character" + character.id}><img src={character.picture.thumbnail} alt="" /><Link to={"/Contact/" + character.id} className='link'>{character.name.first} {character.name.last}</Link> <hr></hr>
+                    </li>
+                ))
+            }
+        </ul>
+    </div>
+)
 
 
-
-
-    render() {
-        return (
-            <div className="contacts">
-                <div className="title">Crew and Associates</div>
-                <ul>
-                    {
-                        data.map(character => (
-                            <li><img src={this.props.match.params.picture.thumbnail} /><p>{this.props.match.params.name.first} {this.props.match.params.name.last}</p><hr></hr>
-                            </li>
-                        ))
-                    }
-                </ul>
-            </div >
-        )
-    }
-}
 
 export default List

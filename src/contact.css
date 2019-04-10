@@ -7,24 +7,32 @@ html {
 }
 
 .contacts {
-    width: 700px;
-
+  width: 500px;
+  margin: auto;
 }
 
 .picFrame {
     width: 90%;
     margin: 5% 10%;
+    padding: 10% 20%;
     background-color: mediumpurple;
     border-radius: 10px;
+}
+
+.picFrame img {
+    width: 100px;
+    border-radius: 50%;
 }
 
 .dataBox {
     width: 90%;
     margin: 1% 10%;
     padding: 2% 3%;
+    text-transform: capitalize;
+    color: black
 }
 
 hr {
     width: 90%;
-    border: solid 2px indigo;
+    border: solid 1px indigo;
 }

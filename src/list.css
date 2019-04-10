@@ -1,35 +1,50 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,::after,::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .contacts {
-    width: 700px;
-
+  width: 500px;
+  margin: auto;
 }
 
 .title {
-     width: 90%;
-    margin: 5% 10%;
-    background-color: mediumpurple;
-    border-radius: 10px;
+  width: 90%;
+  margin: 5% 10%;
+  background-color: mediumpurple;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 li {
-    width: 90%;
-    margin: 1% 10%;
-    padding: 2% 3%;
+  width: 90%;
+  height: 50;
+  margin: 0 10%;
+  padding: 0 3%;
+  list-style: none;
+  text-decoration: none;
+  position: relative;
 }
 
 li img {
-    width: 30px;
-    margin: 1%;
+  width: 30px;
+  margin: 1%;
+  border-radius: 50%;
+}
+
+.link {
+  text-decoration: none;
+  margin: 5px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 15%;
+  color: black
 }
 
 hr {
-    width: 90%;
-    border: solid 2px indigo;
+  width: 90%;
+  border: solid 1px indigo;
 }
